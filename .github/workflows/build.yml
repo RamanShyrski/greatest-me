@@ -20,6 +20,4 @@ jobs:
           node-version: 12.11.1
 
       - name: npm install and npm run build
-        run: |
-          npm ci
-          npm run build:ci
+        run: npm run build
